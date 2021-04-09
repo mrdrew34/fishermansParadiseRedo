@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback &verbar; All is Welcome</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,800;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="community.html">Community</a>
+      <a href="about.html">About</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
+    <header>
+      <img
+        src="images/logoTransparent.png"
+        alt="The Fisherman's Paradise Logo"
+      />
+      <h1>The Fisherman's Paradise</h1>
+      <img
+        src="images/logoTransparent.png"
+        alt="The Fisherman's Paradise Logo"
+      />
+    </header>
+    <main>
+      <h1>The Fisherman's Paradise &verbar; Indy's Local Fishing Shop &verbar; Feedback</h1>
+      <section>
+          <hr>
+        <form action="thankyou.html">
+          <div id="feedback-personal-info">
+            <label for="feedback-name">Your Name:</label>
+            <input type="text" id="feedback-name" placeholder="Your Name" name="custname"/>
+            <label for="feedback-password">Password</label>
+            <input type="password" id="feedback-password" placeholder="Password" name="password">
+          </div>
+          <div>
+              <label for="feedback-address">Address:</label>
+              <textarea name="feedback-address" id="feedback-address" cols="25" rows="2"></textarea>
+            <input
+              type="text"
+              id="feedback-address-1"
+              placeholder="Street Address"
+            />
+            <label for="feedback-address-2"></label>
+            <input type="text" id="feedback-address-2" placeholder="Apt #" />
+            <div>
+
+                <label for="feedback-city">City:</label>
+                <input type="text" id="feedback-city" placeholder="City" name="city"/>
+                <label for="feedback-state">State:</label>
+                <select name="state" id="feedback-state">
+                    <option value="">&mdash;Please choose an option&mdash;</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="DC">District Of Columbia</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                </select>
+                <label for="feedback-zip">Zip Code:</label>
+                <input type="text" id="feedback-zip" placeholder="Zip Code" maxlength="5" size="2"/>
+            </div>
+            <hr>
+          </div>
+          <div id="feedback-contact-info">
+              <label for="feedback-email">Email Address:</label>
+            <input
+              type="email"
+              id="feedback-email"
+              placeholder="username@tfp.com"
+            />
+            <label for="feedback-phone">Phone Number:</label>
+            <input type="tel" id="feedback-phone" placeholder="Phone Number" />
+            <label for="feedback-contact-question">Contact You:</label>
+            <input
+              type="text"
+              id="feedback-contact-question"
+              placeholder="Yes/No"
+            />
+          </div>
+          <hr>
+          <label for="feedback-comments">Comments:</label>
+          <div id="feedback-comments">
+              <textarea name="feedback-comments" id="feedback-comments" cols="30" rows="10" placeholder="Comments/Questions/Concerns"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section id="copyright">
+        <p>&copy; 2017-2021</p>
+      </section>
+      <section id="author">
+        <p>Created by: Andrew Snyder</p>
+      </section>
+      <section id="contact-info">
+        <!--         <a href="" id="address">1430 Dakota Ridge Drive, <br>Indianapolis, IN 46217</a>
+ -->
+        <a href="">asnyder40@ivytech.edu</a>
+        <a href="">317-719-3856</a>
+      </section>
+    </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/modernizr.custom.05819.js"></script>
+    <script src="js/fp.js"></script>    <script src="js/fp.js"></script>
+  </body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      The Fisherman's Paradise &verbar; Indy's Local Fishing Shop &verbar;
+      Products
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,800;1,700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="products.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="community.html">Community</a>
+      <a href="about.html">About</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="cart.html" id="shopping_cart"><img src="images/iconmonstr-shopping-cart-2-32.png" alt="Shopping Cart"><span id="shopping_cart_total"></span></a>
+    </nav>
+    <header>
+      <img
+        src="images/logoTransparent.png"
+        alt="The Fisherman's Paradise Logo"
+      />
+      <h1>The Fisherman's Paradise</h1>
+      <img
+        src="images/logoTransparent.png"
+        alt="The Fisherman's Paradise Logo"
+      />
+    </header>
+    <main class="products_main">
+      <h1 class="products_page_heading">The Fisherman's Paradise Products</h1>
+      <h2 class="products_section_heading">Rod, Reel and Rod Reel Combo Selection</h2>
+      <div class="products_grid_view">
+        <div class="">
+          <div>
+            <img
+              src="https://cdn.shopify.com/s/files/1/0331/1711/0411/products/Abu_Garcia_Vendetta_Casting_Rod_D_2017_alt3_ecdd840f-8981-40e8-9896-f65fc9c8b041_grande.png?v=1613066319"
+              alt="Large Assortment of Rods"
+            />
+          </div>
+          <div class="products_name_pricing">
+            <p>Abu Garcia Vandetta&circledR;</p>
+            <p class="product_price" id="price_abu_garcia_vandetta">$39.95</p>
+            <div class="add_to_cart">
+              <button type="button" class="products_submit_btn" id="submit_rod_abu_garcia_vandetta">Add To Cart</button>
+<!--               <select name="rod_abu_garcia_vandetta" id="rod_abu_garcia_vandetta" class="products_selection_drpdwn">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select> -->
+              <input  type="number" name="item_number" min="0" max="5" value="0" id="number_rod" class="product_select_amount">
+            </div>
+            <input type="text" id="rod_total" class="product_total" value="$0.00" readonly></input>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img
+            src="https://cdn.shopify.com/s/files/1/0331/1711/0411/products/Abu_Garcia_Zata_Spinning_Reel_2020_alt1_e1314be4-84f8-4d13-be05-a533389e9e16_grande.jpg?v=1600716095"
+            alt="Large Assortment of Reels"
+            />
+          </div>
+          <div class="products_name_pricing">
+            <p>Abu Garcia Zata Spinning Reel</p>
+            <p class="product_price" id="price_reel_abu_garcia_zata">$174.95</p>
+            <div class="add_to_cart">
+              <button type="button" class="products_submit_btn" id="submit_reel_abu_garcia_zata">Add To Cart</button>
+              <!--               <label for="reel_abu_garcia-zata"></label>
+                <select for name="reel_abu_garcia_zata" id="reel_abu_garcia_zata" class="products_sel_drpdwn">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select> -->
+                <input type="number" name="item_number" min="0" max="5" value="0" id="number_reel" class="product_select_amount">
+              </div>
+              <input type="text" id="reel_total" class="product_total" value="$0.00" readonly></input>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img
+              src="https://cdn.shopify.com/s/files/1/0331/1711/0411/products/Abu_Garcia_Zata_Spinning_Combo_2020_alt3_ee37841f-ee51-4a0a-8d00-66ae6a6e74e0_grande.jpg?v=1600716087"
+              alt="Large Assortment of Rod and Reel Combos"
+              />
+            </div>
+            <div class="products_name_pricing">
+              <p>Abu Garcia Zata Spinning Combo</p>
+              <p class="product_price" id="price_abu_garcia_zata">$209.99</p>
+              <div class="add_to_cart">
+                <button type="button" class="products_submit_btn" id="submit_combo_abu_garcia_zata">Add To Cart</button>
+                <!--                 <select name="combo_abu_garcia_zata" id="combo_abu_garcia_zata">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select> -->
+                <input type="number" name="item_number" min="0" max="5" value="0" id="number_combo" class="product_select_amount">
+              </div>
+              <input type="text" id="combo_total" class="product_total" value="$0.00" readonly>
+            </div>
+          </div>
+        </div>
+        
+        <h2 class="products_section_heading">Lures</h2>
+        <div class="products_grid_view">
+          <div class="">
+            <div>
+              <img
+              src="https://www.rapala.com/dw/image/v2/aagv_prd/on/demandware.static/-/Sites-rapala-master/default/dwf685dd78/rapala/hero/down_deep_husky_jerk_hero.jpg?sw=260&sh=185"
+              alt="Large Assortment of Rods"
+              />
+            </div>
+            <div class="products_name_pricing">
+              <p>Rapala Down Deep Husky Jerk&circledR;</p>
+              <p class="product_price" id="price_rapala_down_deep_husky">$8.09</p>
+              <div class="add_to_cart">
+                <button type="button" class="products_submit_btn" id="submit_rapala_down_deep_husky">Add To Cart</button>
+                <!--             <select name="lure_rapala_down_deep_husky" id="lure_rapala_down_deep_husky">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select> -->
+                <input type="number" name="item_number" min="0" max="5" value="0" id="number_rap_husk" class="product_select_amount">
+              </div>
+              <input type="text" class="product_total" id="rap_husk_total" value="$0.00" readonly>
+            </div>
+          </div>
+          <div class="">
+            <div>
+              <img
+              src="https://www.rapala.com/dw/image/v2/aagv_prd/on/demandware.static/-/Sites-rapala-master/default/dw875ad628/rapala/hero/jigging_shad_rap_hero.jpg?sw=260&sh=185"
+              alt="Large Assortment of Rods"
+              />
+            </div>
+            <div class="products_name_pricing">
+              <p>Rapala Jigging Shad Rap&circledR;</p>
+              <p class="product_price" id="price_rapala_jig_shad">$7.59</p>
+              <div class="add_to_cart">
+                <button type="button" class="products_submit_btn" id="submit_rapala_jig_shad">Add To Cart</button>
+                <!--             <select name="lure_rapala_jig_shad" id="lure_rapala_jig_shad">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select> -->
+                <input type="number" name="item_number" min="0" max="5" value="0" id="number_rap_shad" class="product_select_amount">
+              </div>
+              <input type="text" class="product_total" id="rap_shad_total" value="$0.00" readonly>
+            </div>
+          </div>
+          <div class="">
+            <div>
+              <img
+              src="https://www.rapala.com/dw/image/v2/aagv_prd/on/demandware.static/-/Sites-rapala-master/default/dw7df3bda1/rapala/hero/x-rap_09_subwalk_hero.jpg?sw=260&sh=185"
+              alt="Large Assortment of Rods"
+              />
+            </div>
+            <div class="products_name_pricing">
+              <p>Rapala X-Rap&circledR; Subwalk&TRADE;</p>
+              <p class="product_price" id="price_rapala_x_rap">$13.29</p>
+              <div class="add_to_cart">
+                <button type="button" class="products_submit_btn" id="submit_rapala_x_rap">Add To Cart</button>
+                <!--             <select name="lure_rapala_x_rap" id="lure_rapala_x_rap">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select> -->
+                <input type="number" name="item_number" min="0" max="5" value="0" id="number_rap_rap" class="product_select_amount">
+              </div>
+              <input type="text" class="product_total" id="rap_rap_total" value="$0.00" readonly>
+            </div>
+          </div>
+        </div>
+        <h2 class="products_section_heading">Live Bait</h2>
+        <div class="products_grid_view">
+          <div class="">
+            <div>
+              <img
+              src="https://secureservercdn.net/192.169.223.13/ad9.a62.myftpupload.com/wp-content/uploads/2018/02/butterworm1-280x280.jpg"
+              alt="Large Assortment of Rods"
+              />
+            </div>
+            <div class="products_name_pricing">
+              <p>Bestbait Butterworms Qty: 100</p>
+              <p class="product_price" id="price_butterworms">$37.99</p>
+              <div class="add_to_cart">
+                <button type="button" class="products_submit_btn" id="submit_butterworms">Add To Cart</button>
+                <!--           <select name="live_bait_butterworms" id="live_bait_butterworms">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select> -->
+                <input type="number" name="item_number" min="0" max="5" value="0" id="number_butter" class="product_select_amount">
+              </div>
+              <input type="text" class="product_total" id="butter_total" value="$0.00" readonly>
+            </div>
+          </div>
+          <div class="">
+            <div>
+              <img
+              src="https://secureservercdn.net/192.169.223.13/ad9.a62.myftpupload.com/wp-content/uploads/2018/02/RUVFMzk0RDc1NzI5QTNDRTM2MTE6ZWY1MDJmOTU3ZDU0OTNkZmJjZDA1NGUzNGMxMGY0NTE6Ojo6OjA.jpg?time=1616189620"
+              alt="Large Assortment of Rods"
+              />
+            </div>
+            <div class="products_name_pricing">
+              <p>Bestbait Giant Mealworms Qty: 100</p>
+              <p class="product_price" id="price_g_mealworms">$10.99</p>
+              <div class="add_to_cart">
+                <button type="button" class="products_submit_btn" id="submit_g_mealworms">Add To Cart</button>
+                <!--           <select name="live_bait_g_mealworms" id="live_bait_g_mealworms">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select> -->
+                <input type="number" name="item_number" min="0" max="5" value="0" id="number_meal" class="product_select_amount">
+              </div>
+              <input type="text" class="product_total" id="meal_total" value="$0.00" readonly>
+            </div>
+          </div>
+          <div class="">
+            <div>
+              <img
+              src="https://secureservercdn.net/192.169.223.13/ad9.a62.myftpupload.com/wp-content/uploads/2018/02/mousies1-1-280x280.jpg"
+              alt="Large Assortment of Rods"
+              />
+            </div>
+            <div class="products_name_pricing">
+              <p>Bestbait Mousies Qty: 100</p>
+              <p class="product_price" id="price_mousies">$15.99</p>
+              <div class="add_to_cart">
+                <button type="button" class="products_submit_btn" id="submit_mousies">Add To Cart</button>
+                <!--           <select name="live_bait_mousies" id="live_bait_mousies">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                          </select> -->
+                <input type="number" name="item_number" min="0" max="5" value="0" id="number_mousies" class="product_select_amount">
+              </div>
+              <input type="text" class="product_total" id="mousies_total" value="$0.00" readonly>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+   </main>
+    <footer>
+      <section id="copyright">
+        <p>&copy; 2017-2021</p>
+      </section>
+      <section id="author">
+        <p>Created by: Andrew Snyder</p>
+      </section>
+      <section id="contact-info">
+        <!--         <a href="" id="address">1430 Dakota Ridge Drive, <br>Indianapolis, IN 46217</a>
+   -->
+        <a href="">asnyder40@ivytech.edu</a>
+        <a href="">317-719-3856</a>
+      </section>
+    </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/modernizr.custom.05819.js"></script>
+    <script src="js/fp.js"></script>
+  </body>
+</html>

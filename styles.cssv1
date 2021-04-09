@@ -1,0 +1,92 @@
+/* html {
+  background-color: #ced4da;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  background-color: #ced4da;
+  height: 10em;
+  background-image: url('photos/insidestore.jpg');
+  background-size: cover;
+  background-position: 33% 33%;
+  margin-bottom: 2px;
+}
+
+header h1 {
+  display: inline-block;
+}
+
+header img {
+  display: inline;
+  width: ;
+  opacity: 0.5;
+}
+a {
+  text-decoration: none;
+  color: #6c757d;
+  padding: 0 2em;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 2px;
+  justify-content: center;
+}
+
+#main {
+  position: relative;
+  z-index: 1;
+  background-image: url('photos/insidestore.jpg');
+  background-size: cover;
+  background-color: #ced4da;
+}
+
+#main::before {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: url('photos/insidestore.jpg');
+  opacity: 0.4;
+}
+
+aside a {
+  display: flex;
+  background-color: #dee2e6;
+  color: #6c757d;
+  text-align: center;
+  border: 2px solid #adb5bd;
+  border-radius: 5%;
+  padding: 0 2em;
+  margin-top: 2px;
+  width: 120px;
+  box-sizing: border-box;
+  float: inline-start;
+}
+
+aside a:hover {
+  background-color: #adb5bd;
+  color: #ced4da;
+  transition: 0.1s;
+}
+.nav_button {
+  height: 40px;
+}
+
+.nav_button button {
+  background-color: #dee2e6;
+  color: #6c757d;
+}
+
+button:hover,
+button > a:hover {
+  background-color: #adb5bd;
+  color: #ced4da;
+  transition: 0.1s;
+}
+ */

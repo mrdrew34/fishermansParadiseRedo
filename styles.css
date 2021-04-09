@@ -1,0 +1,281 @@
+/* The following code is a CSS reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* This is the end of the CSS Reset */
+
+ul,
+a {
+  text-decoration: none;
+}
+
+html {
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: #01497c;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 4.5em;
+  font-family: 'EB Garamond', serif;
+  color: white;
+  border-bottom: whitesmoke solid 1px;
+}
+
+header img {
+  height: 130px;
+}
+
+nav {
+  background-color: #2a6f97;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /*     margin: 15px 0;
+ */
+  position: sticky;
+  top: 0px;
+  box-sizing: border-box;
+  border-bottom: whitesmoke solid 1px;
+}
+
+nav a {
+  border-radius: 10px;
+  padding: 5px 25px;
+  background-color: #61a5c2;
+  color: white;
+}
+
+main {
+  display: grid;
+  min-height: 100vh;
+  background-color: #a9d6e5;
+  color: #014f86;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+main h1 {
+  font-size: 2em;
+}
+
+main p {
+  font-size: 1.25em;
+  letter-spacing: 0.5px;
+  line-height: 1em;
+  margin: 2px 5px;
+  padding: 3px;
+}
+
+main p:nth-child(1) {
+  font-size: 1.25em;
+  letter-spacing: 0.5px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 1.5em;
+}
+#live {
+  margin-bottom: 1.5em;
+}
+main h2 {
+  font-size: 1.35em;
+  margin-top: 35px;
+}
+
+main img {
+  width: 250px;
+  height: 250px;
+  object-fit: scale-down;
+}
+/* 
+main img {
+  border-radius: 50%;
+  margin-top: 5%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin: 5% 10px;
+  height: 200px;
+
+} */
+
+/*This section is for the carousel of pictures*/
+div {
+  display: grid;
+  grid-gap: 1em;
+  background-color: #a9d6e5;
+}
+
+table img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25%;
+}
+
+button span {
+  background-color: #a9d6e5;
+  padding: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #a9d6e5;
+  border: none;
+  width: 65px;
+  padding: 0;
+}
+
+footer {
+  background-color: #01497c;
+  font-size: small;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: whitesmoke solid 1px;
+}
+
+#copyright {
+  margin-left: 1em;
+  padding: 1em;
+}
+
+footer a {
+  display: block;
+  margin: 0.6em;
+  color: white;
+}
+
+#contact-info {
+  padding: 3px 1.5em;
+  margin: 5px 0;
+}
